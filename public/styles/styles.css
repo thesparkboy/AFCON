@@ -1,0 +1,91 @@
+html, body { height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body {
+    overflow: hidden;
+}
+.q {
+    margin: 7px;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+.container,.row {
+    padding: 0px;
+    margin: 0px;
+}
+.col-md-1 {
+    background: white;
+    border-right: 1px solid #ccc;
+    padding-top: 50px !important;
+    padding-left: 40px !important;
+    
+}
+#map, #sidebar {
+    margin: 0px;
+    padding: 0px;
+}
+#year {
+    padding-top: 10px; 
+}
+.rangeslider--vertical {
+    max-height: 500px;
+    height: 400px !important;
+}
+.marker {
+    background-image: url('/mapbox-icon3.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.marker2 {
+    background-image: url('/mapbox-icon1.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.marker3 {
+    background-image: url('/mapbox-icon4.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 200px;
+}
+.options1, .options2 {
+    float: right;
+}
+.col, .container-fluid {
+    margin: 0px;
+    padding: 0px;
+}  
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.mapdiv {
+    height: 100%;
+}
+.rangeslider__handle {
+    width: 42px;
+    height: 42px;
+}
+.mapboxgl-canvas {
+    width: 100%;
+}
+
+div.ui-slider-range.ui-widget-header {
+    background: red;
+}
