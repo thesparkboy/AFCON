@@ -1,5 +1,5 @@
 
-mapboxgl.accessToken = 'pk.eyJ1IjoidGhlc3Bhcmtib3kiLCJhIjoiY2ptd2dmZXE0MDBrcjNwcDdsZmhkdTFwZyJ9.Jf68yNSL52EppmZ4oCIecw';
+mapboxgl.accessToken = 'xxx';
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
